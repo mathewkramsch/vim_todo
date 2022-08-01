@@ -24,12 +24,19 @@ hi noteListClosed guifg=#fb4934
 syn match noteHeader '# ' nextgroup=header skipwhite
 syn match header '.*$' contained
 hi noteHeader guifg=#000000
-hi header cterm=italic guifg=#83A598
+hi header cterm=bold guifg=#b16286
 
 syn match noteTitle '## ' nextgroup=title skipwhite
 syn match title '.*$' contained
 hi noteTitle guifg=#000000
-hi title cterm=bold guifg=#b8bb26
+hi title cterm=bold guifg=#8ec07c
+
+" for key words
+syn match keywordstart '<' nextgroup=keyword skipwhite
+syn match keyword '.*:' contained
+"hi keyword guifg=#fadb2f guibg=#000000
+hi keyword guibg=#6f6117 guifg=#000000 cterm=bold
+hi keywordstart guifg=#000000
 
 " for comments
 syn match comment '//.*$'
