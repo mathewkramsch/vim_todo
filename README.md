@@ -1,5 +1,6 @@
 # Vim To Do
-Simple syntax highlighting for vim todo notes.
+Simple syntax highlighting for vim todo notes. \
+*Written for use on gnome-terminal, may not work on other terminal emulators*
 
 ## Usage:
 - download notes.vim file & put in ~/.vim/colors/ (or wherever your vim config files are located)
